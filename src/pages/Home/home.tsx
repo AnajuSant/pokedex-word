@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <section className={style.section_container}>
       <main className={style.main}>
-        <article>
+        <article className={style.content}>
           <p className={style.title}>
             <strong>Find</strong> all your favorite <strong>Pokemon</strong>
           </p>
