@@ -63,7 +63,240 @@ export const Pokedex = () => {
                         className={
                           tipo === "grass"
                             ? `${style.abilite} ${style.glass_bug}`
-                            : style.abilite
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "bug"
+                            ? `${style.abilite} ${style.glass_bug}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "poison"
+                            ? `${style.abilite} ${style.poison_psychic_fairy_ghost}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "psychic"
+                            ? `${style.abilite} ${style.poison_psychic_fairy_ghost}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "fairy"
+                            ? `${style.abilite} ${style.poison_psychic_fairy_ghost}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "ghost"
+                            ? `${style.abilite} ${style.poison_psychic_fairy_ghost}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "stile"
+                            ? `${style.abilite} ${style.stile_dark_rock}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "dark"
+                            ? `${style.abilite} ${style.stile_dark_rock}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "rock"
+                            ? `${style.abilite} ${style.stile_dark_rock}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "ice"
+                            ? `${style.abilite} ${style.ice_water}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "water"
+                            ? `${style.abilite} ${style.ice_water}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "fire"
+                            ? `${style.abilite} ${style.fire_fighting_dragon}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "fighthing"
+                            ? `${style.abilite} ${style.fire_fighting_dragon}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "dragon"
+                            ? `${style.abilite} ${style.fire_fighting_dragon}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "normal"
+                            ? `${style.abilite} ${style.normal_gosth}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "gosth"
+                            ? `${style.abilite} ${style.normal_gosth}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "groud"
+                            ? `${style.abilite} ${style.groud}`
+                            : style.none
+                        }
+                      >
+                        {tipo}
+                      </div>
+                    );
+                  })}
+
+                  {pokemon.tipos.map((tipo) => {
+                    return (
+                      <div
+                        className={
+                          tipo === "eletric"
+                            ? `${style.abilite} ${style.eletric}`
+                            : style.none
                         }
                       >
                         {tipo}
@@ -75,7 +308,7 @@ export const Pokedex = () => {
 
               <div className={style.img_pokemon}>
                 <img
-                  alt="foto do bixo"
+                  alt="foto do pokemon"
                   src={pokemon.imagem}
                   className={style.img_pokemon}
                 ></img>
@@ -84,6 +317,8 @@ export const Pokedex = () => {
           ))}
         </article>
       </main>
+
+      <button>Carregar mais</button>
     </section>
   );
 };
