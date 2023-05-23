@@ -1,11 +1,17 @@
-import { Home } from "./pages/Home/home";
-import { Header } from "./Header/";
+import { Home } from "./components/pages/Home/home";
+import { Header } from "./components/Header/index";
+import { Pokedex } from "./components/pages/Pokedex/index";
+import { PokemonContextProvider } from "./context/PokedexContext";
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <Home></Home>
+      <Header />
+      <PokemonContextProvider>
+        <Pokedex />
+      </PokemonContextProvider>
+
+      {/* <Home></Home> */}
     </>
   );
 }
