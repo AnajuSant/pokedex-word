@@ -13,11 +13,13 @@ export const Modal = ({ isOpen, setModalPokemon, pokemon }: any) => {
           style={{
             background: `linear-gradient(to bottom, ${tinycolor(pokemon.cor)
               .desaturate(10)
-              .darken(20)
-              .toString()} 0%, 
+              .darken(30)
+              .lighten(15)
+              .toString()} 8%, 
                     ${tinycolor(pokemon.cor)
-                      .darken(5)
+                      .darken(15)
                       .desaturate(40)
+                      .lighten(20)
                       .toString()} 100%)`,
           }}
         >
@@ -25,12 +27,13 @@ export const Modal = ({ isOpen, setModalPokemon, pokemon }: any) => {
             className={style.fotoPokemon}
             style={{
               background: `linear-gradient(to bottom, ${tinycolor(pokemon.cor)
-                .desaturate(10)
-                .darken(5)
+                .desaturate(20)
+                .darken(10)
+                .lighten(15)
                 .toString()} 0%, 
                     ${tinycolor(pokemon.cor)
-                      .darken(5)
-                      .desaturate(40)
+                      .darken(10)
+                      .desaturate(5)
                       .toString()} 100%)`,
             }}
           >

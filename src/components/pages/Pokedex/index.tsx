@@ -83,18 +83,19 @@ export const Pokedex = () => {
               </div>
 
               <div
-                className={style.img_pokemon}
                 style={{
                   background: `linear-gradient(to bottom, ${tinycolor(
                     pokemon.cor
                   )
-                    .desaturate(10)
-                    .darken(5)
-                    .toString()} 0%, 
-                    ${tinycolor(pokemon.cor)
-                      .darken(5)
-                      .desaturate(40)
-                      .toString()} 100%)`,
+                    .desaturate(50)
+                    .darken(30)
+                    .lighten(10)
+                    .toString()} 8%, 
+                        ${tinycolor(pokemon.cor)
+                          .darken(15)
+                          .desaturate(40)
+                          .lighten(20)
+                          .toString()} 100%)`,
                 }}
               >
                 <img
