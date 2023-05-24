@@ -41,7 +41,8 @@ export const Pokedex = () => {
         ></Modal>
         <article className={style.search_container}>
           <p className={style.title}>
-            <strong>{count}</strong> Pokemons for you to choose your favorite
+            {count}
+            <span> Pokemons</span> for you to choose your favorite
           </p>
           <input
             className={style.input}
@@ -84,6 +85,7 @@ export const Pokedex = () => {
 
               <div
                 style={{
+                  borderRadius: "0px 8px 8px 0px",
                   background: `linear-gradient(to bottom, ${tinycolor(
                     pokemon.cor
                   )

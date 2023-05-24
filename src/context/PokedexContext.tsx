@@ -33,6 +33,10 @@ type PokemonContextProviderProps = {
   children: React.ReactNode;
 };
 
+// const CarregarMais = () => {
+
+// };
+
 export const PokemonContext = createContext<PokemonContextProps>(DEFAULT_VALUE);
 
 export const PokemonContextProvider = ({

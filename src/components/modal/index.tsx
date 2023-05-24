@@ -12,14 +12,14 @@ export const Modal = ({ isOpen, setModalPokemon, pokemon }: any) => {
           className={style.Modal_Conteudo}
           style={{
             background: `linear-gradient(to bottom, ${tinycolor(pokemon.cor)
-              .desaturate(10)
-              .darken(30)
-              .lighten(15)
-              .toString()} 8%, 
+              .desaturate(18)
+              .darken(48)
+              .lighten(20)
+              .toString()} 10%, 
                     ${tinycolor(pokemon.cor)
                       .darken(15)
-                      .desaturate(40)
-                      .lighten(20)
+                      .desaturate(30)
+                      .lighten(15)
                       .toString()} 100%)`,
           }}
         >
