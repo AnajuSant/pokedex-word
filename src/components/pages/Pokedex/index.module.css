@@ -45,9 +45,10 @@
     flex-direction: row;
     padding-left: 20px;
     background: var(--gray);
+    
 
 
-    width: 280px;
+    width: 310px;
     height: 180px;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -92,6 +93,54 @@
     flex-direction: column;
 
    
+}
+
+.CarregarMais{
+ 
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 2px solid rgb(255, 123, 0);
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer; 
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 0 orange,
+                -0px -0px 0 orange;
+    border: 2px solid rgba(255, 123, 0, 1);
+    transition: all 0.25s ease-in-out;
+}
+
+.CarregarMais p{
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 123, 0);    
+}
+
+.CarregarMais:hover{
+    box-shadow: 06px 06px 0 rgb(255, 123, 0),
+                -06px -06px 0 rgb(255, 123, 0);
+    border: 2px solid rgba(255, 123, 0, 0);
+    letter-spacing: 3px;
+}
+
+/* .CarregarMais{
+    width: 150px;
+    height: 50px;
+
+    border: none;
+    border-radius: 8px;
+
+} */
+
+.alinhaBotao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
 
 
@@ -143,9 +192,9 @@
 
     height: 180px;
     /* height: 170px; */
-    width: 210px; 
+    width: 250px; 
     
-    background-image: linear-gradient(to bottom, #F5DB13,#F2B807); 
+    /* background-image: linear-gradient(to bottom, #F5DB13,#F2B807);  */
 
     border-radius: 0px 8px 8px 0px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);

@@ -1,0 +1,216 @@
+.Modal_Container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.7);
+    z-index: 1000;
+    text-transform: capitalize;
+
+}
+
+.Modal_Conteudo{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    gap: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+
+    width: 890px;
+    height: 400px;
+    background-color: #D93E30;
+    border-radius: 8px;
+}
+
+.Close_Modal{
+    margin-left: 1100px;
+    margin-top: 20px;      
+    cursor: pointer; 
+}
+
+.fotoPokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 400px;
+    height: 400px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: white;
+}
+
+.dados_pokemon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 5px;
+
+    gap: 120px;
+}
+
+.generiton{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: regular;
+    gap: 10px;
+    color: #FDFDFD;
+
+   
+}
+
+.number{
+    color: #000000;
+    font-style: regular;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    border-radius: 50%;
+    background-color: #F2CB07;
+    width: 41px;
+    height: 41px;
+}
+
+.abilites_card_container{
+    width: 264px;
+    height: 66px;
+    background-color:#FDFDFD ;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+  
+    flex-direction: column;
+   
+   
+
+       
+}
+
+.abilites_card_container p{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.abilites{
+    margin-top: -22px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: -145x;
+}
+
+.experiencie{
+    display: flex;
+    flex-direction: row;
+   width: 400px ;
+   height: 77px ;
+   background-color: #FDFDFD;
+   border-radius: 8px;
+   
+}
+
+.experiencie_itens{
+
+    display: flex;
+    gap: 100px;
+    margin-left: 25px;
+    font-size: 14px;
+
+}
+
+
+.experiencie_itens p {
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.centraliza_defesa_atack{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.defese_atack{
+
+    width: 85px;
+    height: 75px;
+    background-color: #FDFDFD;
+    border-radius: 8px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+     
+    
+
+}
+
+.nome_picacku{
+    font-size: 28px;
+    font-weight: 700;
+    color: #FDFDFD;
+
+  
+}
+
+
+
+.aling_defese_atack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    
+}
+
+
+
+.circle{
+    border-radius: 50%;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    width: 35px;
+    height: 36px;
+}
+
+.centraliza_cards_pokemon{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.defense{
+    margin-top: 5px;
+    color:#4B4B4B ;
+    font-size: 13px;
+}
+
+.energy{
+    border: 2px solid #F5DB13;
+    width: 121px;
+}
+
+
+.energy2{
+    border: 2px solid #64D368;
+    width: 131px;
+   
+}
+
+
