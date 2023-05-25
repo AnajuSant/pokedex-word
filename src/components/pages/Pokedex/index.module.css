@@ -249,6 +249,7 @@
         display: flex;
        gap: 20px;
        padding: 15px;
+       justify-content: flex-start;
     }
 
     .input{
@@ -302,7 +303,7 @@
     .centralizer_cards{
         text-transform: capitalize;
         display: flex;
- 
+        justify-content: flex-start;
        gap: 120px;
      
     }
