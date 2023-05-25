@@ -37,10 +37,6 @@ type PokemonContextProviderProps = {
   children: React.ReactNode;
 };
 
-// const CarregarMais = () => {
-
-// };
-
 export const PokemonContext = createContext<PokemonContextProps>(DEFAULT_VALUE);
 
 export const PokemonContextProvider = ({
@@ -86,24 +82,25 @@ export const PokemonContextProvider = ({
     });
   };
 
+  const pokemonData = async () => {
+    const pokemonLista = await listPokemon(offset);
+    setCount(pokemonLista.count);
+
+    const pokemonInformacao = await Promise.all(
+      await pokemonPromiseFunction(pokemonLista)
+    );
+
+    setPokemon((pokemonInformacaoAntiga) => [
+      ...pokemonInformacaoAntiga,
+      ...pokemonInformacao,
+    ]);
+  };
+
   useEffect(() => {
-    const pokemonData = async () => {
-      const pokemonLista = await listPokemon(offset);
-      setCount(pokemonLista.count);
-
-      const pokemonInformacao = await Promise.all(
-        await pokemonPromiseFunction(pokemonLista)
-      );
-
-      setPokemon((pokemonInformacaoAntiga) => [
-        ...pokemonInformacaoAntiga,
-        ...pokemonInformacao,
-      ]);
-    };
-
     pokemonData();
   }, [offset]);
 
+  // pokemonData();
   return (
     <PokemonContext.Provider
       value={{ pokemons, setPokemon, count, setCount, offset, setOffset }}

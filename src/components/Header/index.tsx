@@ -17,7 +17,7 @@ export const Header = () => {
               <Link to="/pokedex">Pokédex</Link>
             </li>
             <li>
-              <a>Legendaries</a>
+              <Link to="/lengendaries">Legendaries</Link>
             </li>
             <li>
               <Link to="https://pokeapi.co/">Documentation</Link>

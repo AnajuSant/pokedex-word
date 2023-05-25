@@ -21,5 +21,5 @@ export async function get(url: string): Promise<any>{
 }
 
 export function listPokemon(offset: number): Promise<any> {
-    return get(`pokemon/?limit=${offset + 9}&offset=${offset}`)
+    return get(`pokemon/?limit=${offset + 9}&offset=${offset === 0 ? 0 : offset+1}`)
 }

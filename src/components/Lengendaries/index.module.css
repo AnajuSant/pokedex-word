@@ -93,12 +93,33 @@
 
 .input_name{
     background-color: #FDFDFD;
-    color: #212121;
+    color: #1D1E1D;
     width: 120px;
     height: 65px;
     position: absolute;
     margin-top: -30px;
     border-radius: 10px;
     margin-left: -2 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400px;
+    font-style: Regular;
+
+    gap: 30px;
+
+}
+
+.pokemon_miniature{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: -25px;
+
+
+
 }
 
