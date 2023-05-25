@@ -224,6 +224,63 @@
 }
 
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    margin-top: 25px;
+    margin-left: 150px;
+  }
+  
+  .dropdown_toggle {
+
+
+    background-color: #F5F5F5;
+    border: none;
+    color: #333;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 144px;
+    height: 20px ;
+    border-radius: 8px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  
+  
+  .dropdown_menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 8px;
+    width: 144px;
+    background-color: #F5F5F5;
+
+ 
+    list-style: none;
+  
+    display: none;
+  }
+  
+  .dropdown_menu li {
+    padding: 8px 12px;
+  }
+  
+  .dropdown_menu li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown_menu {
+    display: block;
+  }
+
+
 @media screen and (max-width:767px){
   
     .card_container{

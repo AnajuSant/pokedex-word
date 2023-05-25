@@ -6,7 +6,7 @@
 
     background-color: var(--Third);
     font-weight: 400;
-    box-shadow: 0px 4px 16px #011C40;
+    box-shadow: 0px 2px 10px 0px #011C40;
     color: #212121;
 
             
@@ -73,6 +73,19 @@
     color: #000000;
 }
 
+.nav_bar {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    color: #212121;
+    font-weight: 400;
+    font-size: 15px;
+    align-items: center;
+    
+}
+
 @media screen and (max-width: 767px){
 
     .mobile{
@@ -80,26 +93,13 @@
         display: block;
     }
 
-
- 
-    
-
-    /* .navbar{
-        position: fixed;
-        top: 7vh;
-        right: 0;
-        width: 50%;
-        height: 93vh;
-        background: var(--Third);
-        flex-direction: column;
-        transform: translateX(100%);
+    .nav_bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+ 
 
-}
-
-.navbar_ative{
-    transform: translate
-} */
 }
 
 .centralize{

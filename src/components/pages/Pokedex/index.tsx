@@ -43,10 +43,88 @@ export const Pokedex = () => {
             <span> Pokemons</span> for you to choose your favorite
           </p>
           <input
+            // onChange={(e) => pokemonFilter(e.target.value)}
             className={style.input}
             type="text"
             placeholder="Encuentra tu pokémon..."
           />
+        </article>
+
+        <article className={style.dropdawn}>
+          <div className={style.dropdown}>
+            <button className={style.dropdown_toggle}>Menu</button>
+            <ul className={style.dropdown_menu}>
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                grass
+              </li>
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                bug
+              </li>
+
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                poison
+              </li>
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                psychic
+              </li>
+
+              {/* <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                fairy
+              </li>
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                ghost
+              </li>
+
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                stile
+              </li>
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                dark
+              </li>
+
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                rock
+              </li>
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                ice
+              </li>
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                water
+              </li>
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                fire
+              </li>
+
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                fighthing
+              </li>
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                dragon
+              </li>
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                normal
+              </li>
+              <li>
+                <input type="checkbox" name="item2" value="Item 2" />
+                gosth
+              </li> */}
+            </ul>
+          </div>
         </article>
 
         <article className={style.centralizer_cards}>
