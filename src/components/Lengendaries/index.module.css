@@ -1,0 +1,104 @@
+.section_container{
+    background-color: #212121;
+
+    width: 100%;
+    height: 300vh;
+}
+
+.title{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 400;
+    padding: 30px 90px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    gap: 30px;
+}
+
+.line{
+    border: 1px solid #FFFFFF;
+
+}
+
+.dados_pokemon_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 300px;
+    align-items: center;
+}
+
+.nome_pokemon{
+    font-size: 68px;
+    font-weight: 400;
+    color: #FDFDFD;
+    letter-spacing: 2px;
+
+}
+
+.descricao{
+    color: #FFFFFF;
+    font-size: 16px;
+    max-width: 400px;
+
+
+}
+.hp_experiencie{
+    display: flex;
+    flex-direction: row;
+    color: #FDFDFD;
+    letter-spacing: 2px;
+    gap: 50px;
+    font-size: 14px;
+}
+
+.hp{
+    display: flex;
+    flex-direction: column;
+}
+
+.informacao_pokemon{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.powers{
+    width: 110px; 
+    height: 5px;
+   border-radius: 2px;
+   background-image: linear-gradient(to right,var(--Third) 60%, var(--gray) 40%);
+  background-position: 0 0;
+  background-repeat: repeat-x;
+}
+
+
+
+.cards{
+    width: 120px;
+    height: 150px;
+    background-color: #DCBF36;
+    border-radius: 10px;
+
+}
+
+.cards_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    gap: 50px;
+}
+
+.input_name{
+    background-color: #FDFDFD;
+    color: #212121;
+    width: 120px;
+    height: 65px;
+    position: absolute;
+    margin-top: -30px;
+    border-radius: 10px;
+    margin-left: -2 px;
+}
+
