@@ -51,24 +51,23 @@ export const Header = () => {
   return (
     <Navbar expand="lg" className={style.header_container}>
       <Container>
-        <Navbar.Brand href="#home">
-          <img src={logo} alt="" />
-        </Navbar.Brand>
+        <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className={style.centralize}>
-            <Nav.Link as={Link} to="/">
+          <Nav className={style.nav_bar}>
+            <img src={logo} alt="" />
+            <Nav.Link className="text-dark" as={Link} to="/">
               Home
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/pokedex">
+            <Nav.Link className="text-dark" as={Link} to="/pokedex">
               Pokedex
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/lengendaries">
+            <Nav.Link className="text-dark" as={Link} to="/lengendaries">
               Legendaries
             </Nav.Link>
-            <Nav.Link as={Link} to="https://pokeapi.co/">
+            <Nav.Link className="text-dark" as={Link} to="https://pokeapi.co/">
               Documentation
             </Nav.Link>
           </Nav>
