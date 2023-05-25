@@ -64,6 +64,15 @@
     display: none;
 }
 
+.centralize{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #000000;
+}
+
 @media screen and (max-width: 767px){
 
     .mobile{
@@ -93,3 +102,11 @@
 } */
 }
 
+.centralize{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #000000;
+}
