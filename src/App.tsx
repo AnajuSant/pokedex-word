@@ -1,11 +1,20 @@
-import { Home } from "./pages/Home/home";
-import { Header } from "./Header/";
+import { Home } from "./components/pages/Home/home";
+import { Header } from "./components/Header/index";
+import { Pokedex } from "./components/pages/Pokedex/index";
+import { PokemonContextProvider } from "./context/PokedexContext";
+import NotFound from "./components/pages/NotFound";
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <Home></Home>
+      <Header />
+      <PokemonContextProvider>
+        <Pokedex />
+      </PokemonContextProvider>
+
+      {/* <NotFound /> */}
+
+      {/* <Home></Home> */}
     </>
   );
 }

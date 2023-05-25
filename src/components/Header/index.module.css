@@ -71,7 +71,11 @@
         display: block;
     }
 
-    .navbar{
+
+ 
+    
+
+    /* .navbar{
         position: fixed;
         top: 7vh;
         right: 0;
@@ -85,6 +89,7 @@
 }
 
 .navbar_ative{
-    transform: translateX(0);
+    transform: translate
+} */
 }
 

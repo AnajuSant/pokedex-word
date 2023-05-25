@@ -1,7 +1,6 @@
-import logo from "../assets/logoPokedex.svg";
+import logo from "../../assets/logoPokedex.svg";
 import style from "./index.module.css";
-import burguerbtn from "../assets/BurgenBtn.svg";
-import { useState } from "react";
+import burguerbtn from "../../assets/BurgenBtn.svg";
 
 export const Header = () => {
   return (
