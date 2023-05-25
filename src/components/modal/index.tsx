@@ -1,7 +1,5 @@
-import React, { useContext, useState } from "react";
 import close from "../../assets/closeIcon.svg";
 import style from "./index.module.css";
-import { PokemonContext } from "../../context/PokedexContext";
 import tinycolor from "tinycolor2";
 
 export const Modal = ({ isOpen, setModalPokemon, pokemon }: any) => {
