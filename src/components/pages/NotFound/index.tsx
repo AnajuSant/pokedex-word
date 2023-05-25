@@ -1,5 +1,3 @@
-import React from "react";
-
 import team from "../../../assets/teamRocket.svg";
 
 import style from "./index.module.css";

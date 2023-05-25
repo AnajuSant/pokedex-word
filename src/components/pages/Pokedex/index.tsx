@@ -1,6 +1,5 @@
 import style from "./index.module.css";
-import axios from "axios";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import { PokemonContext } from "../../../context/PokedexContext";
 import { Modal } from "../../modal";
 import tinycolor from "tinycolor2";
@@ -27,9 +26,7 @@ const tipoDoEstilo: { [index: string]: string } = {
 };
 
 export const Pokedex = () => {
-  const { pokemons, setPokemon, count, offset, setOffset } =
-    useContext(PokemonContext);
-  const [openModel, setOpenModal] = useState(false);
+  const { pokemons, count, offset, setOffset } = useContext(PokemonContext);
   const [modalPokemon, setModalPokemon] = useState<any>(null);
 
   return (
