@@ -27,7 +27,8 @@ const tipoDoEstilo: { [index: string]: string } = {
 };
 
 export const Pokedex = () => {
-  const { pokemons, setPokemon, count } = useContext(PokemonContext);
+  const { pokemons, setPokemon, count, offset, setOffset } =
+    useContext(PokemonContext);
   const [openModel, setOpenModal] = useState(false);
   const [modalPokemon, setModalPokemon] = useState<any>(null);
 
@@ -54,6 +55,7 @@ export const Pokedex = () => {
         <article className={style.centralizer_cards}>
           {pokemons.map((pokemon) => (
             <div
+              key={pokemon.nome}
               className={style.card_container}
               onClick={() => setModalPokemon(pokemon)}
             >
@@ -76,7 +78,10 @@ export const Pokedex = () => {
 
                 <div className={style.abilites_container}>
                   {pokemon.tipos.map((tipo) => (
-                    <div className={tipoDoEstilo[tipo] || style.none}>
+                    <div
+                      className={tipoDoEstilo[tipo] || style.none}
+                      key={tipo}
+                    >
                       {tipo}
                     </div>
                   ))}
@@ -114,7 +119,7 @@ export const Pokedex = () => {
       <div className={style.alinhaBotao}>
         <button
           className={style.CarregarMais}
-          onClick={() => console.log("clicou")}
+          onClick={() => setOffset(offset + 9)}
         >
           <p>Carregar mais</p>
         </button>

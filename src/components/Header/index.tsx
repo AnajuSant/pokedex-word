@@ -1,6 +1,7 @@
 import logo from "../../assets/logoPokedex.svg";
 import style from "./index.module.css";
 import burguerbtn from "../../assets/BurgenBtn.svg";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -10,16 +11,16 @@ export const Header = () => {
         <div>
           <ul className={style.navbar}>
             <li>
-              <a>Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a>Pokédex</a>
+              <Link to="/pokedex">Pokédex</Link>
             </li>
             <li>
               <a>Legendaries</a>
             </li>
             <li>
-              <a>Documentation</a>
+              <Link to="https://pokeapi.co/">Documentation</Link>
             </li>
           </ul>
         </div>
