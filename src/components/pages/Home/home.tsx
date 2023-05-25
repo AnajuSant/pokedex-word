@@ -1,5 +1,5 @@
 import style from "./index.module.css";
-import banner from "../../assets/BannerComplete.svg";
+import banner from "../../../assets/BannerComplete.svg";
 
 export const Home = () => {
   return (

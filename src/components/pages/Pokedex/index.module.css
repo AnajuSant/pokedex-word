@@ -32,14 +32,15 @@
 .centralizer_cards{
     text-transform: capitalize;
     display: flex;
-    padding: 25px;
+    padding: 5%;
     align-items: center;
     border-radius: 8px;
     padding-top: 20px;
-
+    justify-content: center;
+    align-content: flex-start;
    flex-wrap: wrap;
 
-   gap: 108px;
+   gap: 90px;
 }
 
 .card_container{
@@ -329,9 +330,25 @@
     margin-top: 115px;
     font-size: 12px;
     width: 150px;
-}
+
+
 
  
 
+}
+
+.title{
+    font-size: 28px;
+  
+   
+     max-width: 510px;
+
+     text-align: center;
+    letter-spacing: 2px;
+}
+
+.title span{
+    font-weight: bold;
+}
 }
 
