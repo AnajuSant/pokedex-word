@@ -4,6 +4,7 @@ import { Pokedex } from "./components/pages/Pokedex/index";
 import { PokemonContextProvider } from "./context/PokedexContext";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Lengendaries from "./components/Lengendaries/index";
+import NotFound from "./components/pages/NotFound";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
               </>
             }
           ></Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </>
