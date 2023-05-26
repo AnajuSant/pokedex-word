@@ -1,5 +1,6 @@
 import style from "./index.module.css";
 import img from "../../assets/pngwing 6.svg";
+import logo from "../../assets/Group.svg";
 
 export default function Lengendaries() {
   return (
@@ -58,7 +59,45 @@ export default function Lengendaries() {
       <div className={style.cards_container}>
         <div>
           <div className={style.cards}></div>
-          <div className={style.input_name}>Nomee</div>
+          <div className={style.input_name}>
+            <div>NOME</div>
+            <img src={logo} />
+          </div>
+          <img src={img} className={style.pokemon_miniature}></img>
+        </div>
+
+        <div>
+          <div className={style.cards}></div>
+          <div className={style.input_name}>
+            <div>NOME</div>
+            <img src={logo} />
+          </div>
+          <img src={img} className={style.pokemon_miniature}></img>
+        </div>
+
+        <div>
+          <div className={style.cards}></div>
+          <div className={style.input_name}>
+            <div>NOME</div>
+            <img src={logo} />
+          </div>
+          <img src={img} className={style.pokemon_miniature}></img>
+        </div>
+        <div>
+          <div className={style.cards}></div>
+          <div className={style.input_name}>
+            <div>NOME</div>
+            <img src={logo} />
+          </div>
+          <img src={img} className={style.pokemon_miniature}></img>
+        </div>
+        <div>
+          <div className={style.cards}></div>
+          <div className={style.input_name}>
+            <div>NOME</div>
+            <img src={logo} />
+          </div>
+          <img src={img} className={style.pokemon_miniature}></img>
         </div>
       </div>
     </section>
