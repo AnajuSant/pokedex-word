@@ -223,11 +223,6 @@
     background-color: var(--eletric);
 }
 
-.title span{
-    font-weight: bold;
-    
-}
-
 
 .dropdown {
     position: relative;
@@ -367,7 +362,6 @@
         text-transform: capitalize;
         display: flex;
         justify-content: flex-start;
-       gap: 120px;
      
     }
 
@@ -421,7 +415,6 @@
 
 .title span{
     font-weight: bold;
-    
 }
 }
 

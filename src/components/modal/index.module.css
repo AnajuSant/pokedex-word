@@ -449,6 +449,161 @@
             height: 300px; /* Permite que a altura seja ajustada automaticamente de acordo com a largura */
         }
 }
+@media screen and (min-width:768px) and (max-width: 1023px){
+
+    .Modal_Container{
+        padding: 0;
+        margin: 0;
+
+    }
+.Modal_Conteudo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 380px;
+    background-color: #D93E30;
+    border-radius: 8px;
+
+}
+     .fotoPokemon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        width: 40%;
+        height: 380px;
+        border-radius: 8px 0px 0px 8px;
+        background-color: white;
+    }
+    
+    .dados_pokemon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        gap: 150px;
+      
+    }
+
+    .nome_picacku{
+        position: absolute;
+        top: 20px;
+        left: 130px;
+    }
+    .generiton{
+        display: flex;
+        flex-direction: row;
+               
+       justify-content: flex-end;
+       margin-left: 200px;
+    }
+    
+       .number{
+        color: #000000;
+        font-style: regular;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+
+    .abilites_card_container{
+        width: 250px;
+        height: 66px;
+        background-color:#FDFDFD ;
+        border-radius: 8px;
+        display: flex;
+            justify-content: space-around;
+        flex-direction: column;
+ 
+    }
+    .foto{
+            
+        max-width: 90%; /* Define a largura máxima da imagem como 100% do seu contêiner */
+        max-height: 200px; /* Define a altura máxima desejada */
+        width: auto; /* Permite que a largura seja ajustada automaticamente de acordo com a altura */
+        height: 300px; /* Permite que a altura seja ajustada automaticamente de acordo com a largura */
+    }
+    
+    .abilites_card_container p{
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .centraliza_cards_pokemon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        gap: 25px;
+    }
+
+    .experiencie{
+        display: flex;
+        flex-direction: row;
+        width: 340px;
+       height: 100px ;
+       background-color: #FDFDFD;
+       border-radius: 8px;
+       display: flex;
+       flex-direction: column;
+    
+    }
+    
+    .experiencie_itens{
+    
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        /* margin-left: 25px; */
+        font-size: 16px;
+    
+    }
+
+    .centraliza_defesa_atack{
+       
+        gap: 20px;
+    }
+
+    .defese_atack{
+        
+            width: 70px;
+            height: 70px;
+            background-color: #FDFDFD;
+            border-radius: 8px;
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+           
+        
+        }
+
+        .circle{
+            border-radius: 50%;
+            border: 3px solid black;
+            display: flex;
+            align-items: center;
+            text-align: center;
+              
+         
+          
+        }
+
+        .teste{
+            margin-left: -444px;
+            margin-top: 150px;
+            position: absolute;
+            margin-top: 274px;      
+            cursor: pointer; 
+        }
+
+}
 
 
 
