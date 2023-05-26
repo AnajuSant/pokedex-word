@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import team from "../../../assets/teamRocket.svg";
 
 import style from "./index.module.css";
@@ -16,7 +17,9 @@ export default function NotFound() {
           </div>
           <div>
             <button className={style.button}>
-              <span>Return</span>
+              <Link className={style.teste} to="/">
+                <span>Return</span>
+              </Link>
             </button>
           </div>
         </div>
