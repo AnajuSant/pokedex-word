@@ -1,5 +1,6 @@
 import style from "./index.module.css";
 import banner from "../../../assets/BannerComplete.svg";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -16,7 +17,9 @@ export const Home = () => {
 
           <a href="#">
             <button className={style.button}>
-              <span>See Pokemons</span>
+              <Link className={style.teste} to="/pokedex">
+                <span>See Pokemons</span>
+              </Link>
             </button>
           </a>
         </article>
