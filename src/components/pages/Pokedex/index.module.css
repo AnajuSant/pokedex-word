@@ -223,6 +223,11 @@
     background-color: var(--eletric);
 }
 
+.title span{
+    font-weight: bold;
+    
+}
+
 
 .dropdown {
     position: relative;
@@ -416,6 +421,7 @@
 
 .title span{
     font-weight: bold;
+    
 }
 }
 

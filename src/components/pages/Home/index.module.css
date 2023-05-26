@@ -54,6 +54,10 @@
     font-size: 19px;
 }
 
+.teste{
+    text-decoration: none !important;
+}
+
 @media screen and (max-width: 767px) {
 
     .content{
