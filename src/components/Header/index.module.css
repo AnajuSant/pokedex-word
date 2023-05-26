@@ -1,3 +1,4 @@
+
 .header_container{
     display: flex;
     flex-direction: row;
@@ -110,3 +111,12 @@
 
     color: #000000;
 }
+
+@media screen and (min-width:768px) and (max-width: 1023px){
+    .header_container{
+        width: 100%
+    
+                
+    }
+}
+
