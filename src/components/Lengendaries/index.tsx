@@ -16,7 +16,7 @@ export default function Lengendaries() {
         </div>
 
         <div className={style.informacao_pokemon}>
-          <div className={style.nome_pokemon}>Nome do bixo</div>
+          <div className={style.nome_pokemon}>MewTwo</div>
 
           <div className={style.descricao}>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -94,7 +94,7 @@ export default function Lengendaries() {
         <div>
           <div className={style.cards}></div>
           <div className={style.input_name}>
-            <div>NOME</div>
+            <div>Mew</div>
             <img src={logo} />
           </div>
           <img src={img} className={style.pokemon_miniature}></img>
